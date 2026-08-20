@@ -1,0 +1,680 @@
+{
+    "version": "0.2.6",
+    "files": [
+        {
+            "path": "nekagame.exe",
+            "size": 666624,
+            "hash": "18e846c65c20f76fba833530ac8b1d1e34e267672956446b3d68c291d6e1c6e7"
+        },
+        {
+            "path": "UnityCrashHandler64.exe",
+            "size": 1112768,
+            "hash": "64d236535d6d69b6fe200376765f163142651832c9277bd944ec5e8f32463092"
+        },
+        {
+            "path": "UnityPlayer.dll",
+            "size": 30981312,
+            "hash": "787d3be55e3da512179929355f54fd55937373ffbcd95d01d62c9d9ba3a5699c"
+        },
+        {
+            "path": "nekagame_Data/app.info",
+            "size": 23,
+            "hash": "e34912ad00323b79bdafa03ee9b7724ad8aafaddc3053fe216c1efa84958cb4b"
+        },
+        {
+            "path": "nekagame_Data/boot.config",
+            "size": 164,
+            "hash": "244a9a0ba9fb7db62cbd47d54df9abebf7a9a8ae488ebec538101be89b7aab3c"
+        },
+        {
+            "path": "nekagame_Data/globalgamemanagers",
+            "size": 66708,
+            "hash": "7c8c65374a331aa6db032c2f683ec4e2abe7035c7356d9943038a3c45e88d043"
+        },
+        {
+            "path": "nekagame_Data/globalgamemanagers.assets",
+            "size": 153944,
+            "hash": "a3ef52b669da5f8953beea2019964ba6877c4b8371268721cfbb87e40d040141"
+        },
+        {
+            "path": "nekagame_Data/globalgamemanagers.assets.resS",
+            "size": 2796240,
+            "hash": "39dd38fcd8dd95d41d6d55fe16a448d29fe2c31d9a162c825c24c6d99a893d7a"
+        },
+        {
+            "path": "nekagame_Data/level0",
+            "size": 7104,
+            "hash": "bfe371066815205203cdae4c3820d9a96ac01b3f7ff0a30bf45bc93af2f3e9fa"
+        },
+        {
+            "path": "nekagame_Data/level0.resS",
+            "size": 131232,
+            "hash": "c596fc62dee0782b40423ae8cfd716c844bc93b7f236a8a3bb54067483fa108b"
+        },
+        {
+            "path": "nekagame_Data/resources.assets",
+            "size": 17608,
+            "hash": "05eb99ecf013b8ca0b050abdd10590805ddea44beb0591f80e79f6f635f1d756"
+        },
+        {
+            "path": "nekagame_Data/resources.assets.resS",
+            "size": 349552,
+            "hash": "ccec7c13930ba7f896e444ad8a6abdbf6abf13c1ee97a56c5664412ac573c711"
+        },
+        {
+            "path": "nekagame_Data/RuntimeInitializeOnLoads.json",
+            "size": 218,
+            "hash": "f5a94a0279c5a6dffc0f979f7349d69a9e1cebf8414dedb60168dbbe558e8580"
+        },
+        {
+            "path": "nekagame_Data/ScriptingAssemblies.json",
+            "size": 2797,
+            "hash": "a8662f854687154b64e116b957e321fe796df94b9971de6ac3f2d7d6fd7c7f20"
+        },
+        {
+            "path": "nekagame_Data/sharedassets0.assets",
+            "size": 457812,
+            "hash": "78a94f680e723c95b85073c0afd35816c479067b37b7af6e8679f16253b04ca9"
+        },
+        {
+            "path": "nekagame_Data/sharedassets0.assets.resS",
+            "size": 1747648,
+            "hash": "1acc89c396fe6259c8e09f155a37583c0a55ab8e6f6c9bc6dc2332b4b69cb539"
+        },
+        {
+            "path": "MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll",
+            "size": 7895744,
+            "hash": "91a33a0a0b800344146947381168ca9d5ebe077b5bd4042de70a3e7da2d9a51d"
+        },
+        {
+            "path": "MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll",
+            "size": 609472,
+            "hash": "73ba3123b82cda7062ad279eb7070bf42db2f046624a7b19a32e6ffea30113d5"
+        },
+        {
+            "path": "nekagame_Data/Managed/Mono.Security.dll",
+            "size": 241152,
+            "hash": "5ad4adabd1574f00f300033704e430b848356d64a4b6de4fca9417199d952866"
+        },
+        {
+            "path": "nekagame_Data/Managed/mscorlib.dll",
+            "size": 4631552,
+            "hash": "75dffcedb11ea155465f73fb7b993d06d1d7bc5d9d0c8c0dd5b2405b96970a95"
+        },
+        {
+            "path": "nekagame_Data/Managed/netstandard.dll",
+            "size": 90112,
+            "hash": "6ae62e082dc494a2433984177f60ca4db5fae69b1f360a8b33754172b310b8c5"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.ComponentModel.Composition.dll",
+            "size": 257024,
+            "hash": "fea941a88ff3dd83e4a4a144a920cebbeffa8eaa9d201f0b9ae558e811333158"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Configuration.dll",
+            "size": 124928,
+            "hash": "ad5635b0625a898a5fac68664e83733641cdb76e175236f99e7b0516fa285d2a"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Core.dll",
+            "size": 1113088,
+            "hash": "f229a4f8f887d4a51d694ab943accf60cc9171cd5419af91d2684b1db218afd8"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Data.DataSetExtensions.dll",
+            "size": 29696,
+            "hash": "186ee1a2572961953bb0433e570af844c4a89e144aa5b3bd9d54ce90502009ab"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Data.dll",
+            "size": 2125312,
+            "hash": "7ba30313f35eddbd822632c88ecef4366bcd60531942170a01a5670d54b6d412"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.dll",
+            "size": 2639360,
+            "hash": "54363bd2660959785c639399312ff1581b2a32c9e66bf42dac3407b4d83b3f5c"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Drawing.dll",
+            "size": 489984,
+            "hash": "a4f9c255ade76f30b584e9227d83b92da424a81d8a8e44a592e7e31b67cce9ce"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.EnterpriseServices.dll",
+            "size": 44544,
+            "hash": "7a1dd3f795c2ab240d8e460f68dc6d75ad997d0e27326c4925ff565c3f000e0a"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.IO.Compression.dll",
+            "size": 114688,
+            "hash": "4c9a53e16aa64f2f775eeda43a8f247ed3adb0d8c1497435fff934e413bef039"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.IO.Compression.FileSystem.dll",
+            "size": 18432,
+            "hash": "c0d2b23ecce72521b4f8880357aacb28826fded1afccef4118b0409fcf42161b"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Net.Http.dll",
+            "size": 122880,
+            "hash": "02ce600f6b3ae24049f09fcf2720a5a136046dbeda7fb7b76a830bbc66e12817"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Numerics.dll",
+            "size": 119296,
+            "hash": "2af23581f9fb52414facc5c0841533c3d062798da1b3413348d4edc54a69a52f"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Runtime.Serialization.dll",
+            "size": 934400,
+            "hash": "86b78f083908cecbdfb3c367af0f8cb59514f5b93dadca88abe2f197cfe5a5ab"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Security.dll",
+            "size": 320000,
+            "hash": "ce8a6f6623e99ac1bed915174242d5ca5c867fc612ae6114e2277699289dc596"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.ServiceModel.Internals.dll",
+            "size": 215040,
+            "hash": "fab209e6f29a5119c762beae5589992ada8563bb3174cba4db1cc8d908b20b47"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Transactions.dll",
+            "size": 35328,
+            "hash": "7b90528f527c0025b1d756036adb57b889d7da9ee92d4ab50258beb3d0a89306"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Xml.dll",
+            "size": 3160064,
+            "hash": "e8bd90f1a538b9e52e85ae2fcc2ccd1a42885bf16ece1e3fe97f49b53eab2d5e"
+        },
+        {
+            "path": "nekagame_Data/Managed/System.Xml.Linq.dll",
+            "size": 136704,
+            "hash": "99b98005585e0d3a820ddc7b60d435547753869b742d642358a203892ecfe056"
+        },
+        {
+            "path": "nekagame_Data/Managed/Unity.TextMeshPro.dll",
+            "size": 380416,
+            "hash": "bdfcc9368b2b763006039ac2476ef1574757ebe111aa0ddcc6b27da04fa83aa6"
+        },
+        {
+            "path": "nekagame_Data/Managed/Unity.Timeline.dll",
+            "size": 127488,
+            "hash": "ce503a0b52108cb494aa473fce76d145e0978732561bdebc2d33e0294691b5ab"
+        },
+        {
+            "path": "nekagame_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll",
+            "size": 86016,
+            "hash": "ed7ce205f66eafe39bbb5d084d42e7fe11cb4b386ff208e5d5110891be0b7b37"
+        },
+        {
+            "path": "nekagame_Data/Managed/Unity.VisualScripting.Core.dll",
+            "size": 625152,
+            "hash": "11ccbbf057b2ce3c336134541d67710601d4ad2a90c5407310eb0e2ee5c48eb3"
+        },
+        {
+            "path": "nekagame_Data/Managed/Unity.VisualScripting.Flow.dll",
+            "size": 401408,
+            "hash": "2e5b8a050aa87d5a5dfcd52ad8a7a3446312809505f8f80cfcf583b248293c35"
+        },
+        {
+            "path": "nekagame_Data/Managed/Unity.VisualScripting.State.dll",
+            "size": 32256,
+            "hash": "45ee506a45a7e23ec3c3f07b8cfe5aa034d6f3352cd9f2897d3b89bdaec25de1"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.AccessibilityModule.dll",
+            "size": 22208,
+            "hash": "4df1d2e2906e6fdab76192c69f4740d9c7cff8da3f16195f63f3d151efb55f14"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.AIModule.dll",
+            "size": 57024,
+            "hash": "d917495b4936d7470554dd9b293881d86bd06e16f5c0ba59ef1366669dac53db"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.AndroidJNIModule.dll",
+            "size": 93376,
+            "hash": "69f5bc332be9227e810f12eba9a465466ce755d5a4637547239b4e2b0e47b05b"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.AnimationModule.dll",
+            "size": 162496,
+            "hash": "538c1ffffc86f826b7fd9208c10eb32ac4a1d44cab5c5d4fe952c01a4a3d6a10"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ARModule.dll",
+            "size": 19648,
+            "hash": "d405ca7091473a77a7c4450d09a32a1d95ec3de0266ff9a0a543500db6a39c89"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.AssetBundleModule.dll",
+            "size": 31424,
+            "hash": "5ffef02701bc89484d2f25d5dcdac42684f344dbd986eef018f237996a4d4da8"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.AudioModule.dll",
+            "size": 69312,
+            "hash": "68cc4de937a70de7110958dc8a1fda7a568519a3c48e9fdc202c5586dacf7e6a"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ClothModule.dll",
+            "size": 24768,
+            "hash": "c28eb614651f71470e2ede9ec944244cc63596d1abbb639b23d434ac8d6c5881"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ClusterInputModule.dll",
+            "size": 20160,
+            "hash": "47eb7d13b6c6a770cc91cbd150e18b21ab6fff05b33464689fd8b3878994fc17"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ClusterRendererModule.dll",
+            "size": 20672,
+            "hash": "5c09549a48aadc2931fc8a1bd65832167f7eadd118c1a99dab4f869396d012f2"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ContentLoadModule.dll",
+            "size": 25792,
+            "hash": "f3a5cda5b7390b1f3112bd71b621610b4d68ca65e08e47be68ba658db730d5e9"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.CoreModule.dll",
+            "size": 1387200,
+            "hash": "e235b9fec50505784a02c57dc0454d52c4ba15a9e0b05566140039c554a0b145"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.CrashReportingModule.dll",
+            "size": 19648,
+            "hash": "47914dfd4f8a73ada13edbcf8e02b81988d0c4a6f5008bcb795fb2239c516851"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.DirectorModule.dll",
+            "size": 23232,
+            "hash": "7a3ad4444d1d94f8bcff93b5a7bf5c276ed925f2a7591668736992949f4360b7"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.dll",
+            "size": 125120,
+            "hash": "16e2225569b7afa73b64b1925d73fe6ad65dc2bd7b1b4c865ff241f5b59898b1"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.DSPGraphModule.dll",
+            "size": 27840,
+            "hash": "afb14095d660c252c180b68fe4358e582f255b43f0df3d5d8cb61c3552a0b32d"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.GameCenterModule.dll",
+            "size": 38592,
+            "hash": "80ac625bcdbeb611195b3ff10ff08602883841f7fc723013b0ead9be8ce3d360"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.GIModule.dll",
+            "size": 18624,
+            "hash": "86a3bc301c4748bab29d3a098f910914299124ba984af7d9b65c2600b9e4fde1"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.GridModule.dll",
+            "size": 23744,
+            "hash": "e7caa07f95fd10e8c307c3ffceb43d8dd7dbd3af299f32e2680b99d600a9335f"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.HotReloadModule.dll",
+            "size": 18624,
+            "hash": "1f843ce23830ada0cc6b438e3acf9458754f7b68aa10e185385f2d32ff2ac11b"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ImageConversionModule.dll",
+            "size": 22720,
+            "hash": "a84ade3d5bca2440bf634175dda15abaf8f6131254c40c207ff1153a1a7d2dce"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.IMGUIModule.dll",
+            "size": 188608,
+            "hash": "501ac6cd611f51351cbfbf35c6a1aa9f1c356a88be9ed3eb80a5e635fa36ff35"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.InputLegacyModule.dll",
+            "size": 37568,
+            "hash": "1d07deed67931530a1db4bc4a229f6b65be8beae6040780522804bdef2553bc9"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.InputModule.dll",
+            "size": 22208,
+            "hash": "cc49790b102e97d791788b7d0e85b9434180d0f6e593cac8a25f7e02cb4ce9a8"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.JSONSerializeModule.dll",
+            "size": 20672,
+            "hash": "1008f651b0566f4b67615b33671a28a90a0fec400035540848b0f78cb8a2a1fd"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.LocalizationModule.dll",
+            "size": 19648,
+            "hash": "7cd2f950d04a7bed18f5018ee5d97f2fc3c0ed645b165a6d6f5a9b2f43cb8f8a"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.NVIDIAModule.dll",
+            "size": 32448,
+            "hash": "ffb707dbed1bd021d3d8925d13bc4b2b9e0570dc5dc2fefceb425d303cfe8065"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ParticleSystemModule.dll",
+            "size": 159424,
+            "hash": "d91e97eaca98144ef1b499a8d3e7bd3a5bb40dd482084faf195862e63106402f"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.PerformanceReportingModule.dll",
+            "size": 19136,
+            "hash": "6dc7a8ef41770ebec0038685b6de16331235bb64079d6d4b0641440a255337cd"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.Physics2DModule.dll",
+            "size": 139968,
+            "hash": "1b23fc231a061495c6de5b73ee6293dd045de9560945cee60910847af11dd78f"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.PhysicsModule.dll",
+            "size": 136896,
+            "hash": "e27d51cab80d03cc300f0669dd3dec91fc1a2f3a650c4a82045fa44b4bed4c11"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ProfilerModule.dll",
+            "size": 18624,
+            "hash": "56c8c59ff629446dd38aee620f3b9c1b371dd14532b0580e9918ad31588005a2"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.PropertiesModule.dll",
+            "size": 153792,
+            "hash": "23f38097767b08d6aece3841097a2a3c6e78e8c46b415c75c53bf08ed4489302"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll",
+            "size": 18624,
+            "hash": "26f4dff26526e6930ecc818e09e2385d3836422d8001d7b909a6739e929058c9"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.ScreenCaptureModule.dll",
+            "size": 19648,
+            "hash": "c4ca40760104622424b0e8b01cc24e481285f1378f0b98f6a205952575fa3f9a"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.SharedInternalsModule.dll",
+            "size": 31424,
+            "hash": "1f392f6fb6dd011e8819b87a86f2c2ea1558faaba3e7805ab4694661b1f7463b"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.SpriteMaskModule.dll",
+            "size": 20160,
+            "hash": "5a8e9246b087ce1a7a8a0a2c205c2b7b1135e87a12dcfa86c48112c50397d894"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.SpriteShapeModule.dll",
+            "size": 24768,
+            "hash": "062849f177ec7fc00a0cbaea0da4aa34032e50a84573c39ab9694a2a273a7a59"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.StreamingModule.dll",
+            "size": 19136,
+            "hash": "5bcfc466b4904714f5e6ff0441717c107f38014d717be1c73a6830a18f836b4c"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.SubstanceModule.dll",
+            "size": 23232,
+            "hash": "b54dd6940236ca3e0899f35992d16fa48e5848661342d8ce2b6c587e512a3003"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.SubsystemsModule.dll",
+            "size": 33472,
+            "hash": "f29461f9737325cf2ee4d8749d2959959f0f28ecc5e94558404fb59a8cfb4e8a"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TerrainModule.dll",
+            "size": 99520,
+            "hash": "fa05f109cf7d82a73b4b0803fd86e9841361c77441c98f311175a9e359deec5f"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TerrainPhysicsModule.dll",
+            "size": 19648,
+            "hash": "e7f56c96c7f1353b5a6be3488eb9d0ae67ed8a75d7ebaba8a464c65f99a89864"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll",
+            "size": 70848,
+            "hash": "5369d57b0d4b177bbd475165538dc4a4de74c8603246ba770bd310c1cc26b49b"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll",
+            "size": 247488,
+            "hash": "d619d26f3dc2115ef057a2f20847ac06a49c72ce998effb00439533dd9069cac"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TextRenderingModule.dll",
+            "size": 37568,
+            "hash": "f2f2fa0086ba4f4fe80e30e8812dba1c8e662920d24863ae94bf2adb93ce1728"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TilemapModule.dll",
+            "size": 45248,
+            "hash": "2215dae0e3613bbeb36d2b5624dfad4482c3885cca3608d500acf404d54e56d9"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.TLSModule.dll",
+            "size": 25280,
+            "hash": "49210b67253a241c984859706ee4adae028793036e81f2be31d50fd5cf693b32"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UI.dll",
+            "size": 264192,
+            "hash": "6ba295c5128807408c1a5ff8827ecc7cf8a6caff16b0adef42079ee30f83b8fc"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UIElementsModule.dll",
+            "size": 1533120,
+            "hash": "43de5e4f47089ca9c8fe03efb1b55fea665cd7fafc16d4398715e5bfc5ddc70f"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UIModule.dll",
+            "size": 35008,
+            "hash": "4c2dff997b24a8a89f931022afd7d79a1cf9dcdb12c33147e9bb75375cb76943"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UmbraModule.dll",
+            "size": 18624,
+            "hash": "8887ea0218fdf1608b434da71012fabf794a3248cc85d58f87ebf32e854df682"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll",
+            "size": 19648,
+            "hash": "704026073f5ddaa0e01d8e1670a6049fd2a947fa35aacc4f6153554c70ed48b9"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+            "size": 43200,
+            "hash": "6e9b446eb46fedac5d7693d35ebcd185889edd1c8e0994902a58bfc1397da4d7"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityConnectModule.dll",
+            "size": 20160,
+            "hash": "a4cb0fbc6f98150c2b5c755fb2e5e2cc50848812638a5a2fa742d6c099f0ae3f"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityCurlModule.dll",
+            "size": 20160,
+            "hash": "0d89e02482fc675bf4df7396c272d1a27cec6592ca695aecaa4d369e98e22b09"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityTestProtocolModule.dll",
+            "size": 18624,
+            "hash": "3385393f461ceda0fc04cf288f952ef72dc20a4b2737268b8b1b51e5b8c7f311"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll",
+            "size": 21696,
+            "hash": "912620e7749e7c5a8bd5706e71d76b9418b72b459735189bd25868e7c5c3b06b"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll",
+            "size": 21184,
+            "hash": "2919fe4832ee94602fee558bff248fb56d10c5f877f1c62c4674b0c9109d0983"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+            "size": 56512,
+            "hash": "ba5ef29f1e36222bc1eab5009b19be3266ecebe14a326b2b2490f74a4555832a"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll",
+            "size": 20160,
+            "hash": "9a01aeac61f755f220f1b3bef82e44c8960fa41a530c19334cdb0293d5ad7f0c"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll",
+            "size": 29888,
+            "hash": "a872a47d6400157ec7dc4f1a246c3b2c361dd8d01387d4e1e0b7b7d8064380c3"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.VehiclesModule.dll",
+            "size": 22720,
+            "hash": "d1a960a84b5e9e37bc76e9768bda010815af4191f7d37198bc92fa5c54a60a8c"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.VFXModule.dll",
+            "size": 57024,
+            "hash": "76ab9bd543445e935977ecb765abda1137bcb805a40feb5e6c7fac790aeea35b"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.VideoModule.dll",
+            "size": 39616,
+            "hash": "943dd64c06cd883b2e640b293e3ffc46fafe56dbed4c8d5142a317e476da798e"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.VirtualTexturingModule.dll",
+            "size": 34496,
+            "hash": "67412830fd8ab5d8f5adccfe399bb933333c7cd3dda94dccae83c74da15c54c6"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.VRModule.dll",
+            "size": 25280,
+            "hash": "88c7db932d376a8e279bb4c2f45cbbced7cd06a41f4d701d0c2a26e8451a129d"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.WindModule.dll",
+            "size": 19648,
+            "hash": "e4b3e12849bd80ef010d4455f0145d4f24cfc9ee5af2a68b7190860de6138717"
+        },
+        {
+            "path": "nekagame_Data/Managed/UnityEngine.XRModule.dll",
+            "size": 69312,
+            "hash": "6d23027a100b746c8401b65808d26e56a0b50c3ecc0257e83f1677428aee0a2a"
+        },
+        {
+            "path": "nekagame_Data/Resources/unity default resources",
+            "size": 1564240,
+            "hash": "0950eba963b4669bfb2de83769172984b1e3160a290b75b4c9348e411a130549"
+        },
+        {
+            "path": "nekagame_Data/Resources/unity_builtin_extra",
+            "size": 376508,
+            "hash": "48ee0d44175a5e45646d50076a8805d461e1d2a2b3de5358eaa8a22dc376bba8"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/browscap.ini",
+            "size": 311984,
+            "hash": "4ddd50f31fb968f30bedefc253a46dc3f2890192d05cdaa9e0a64a056eee807e"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/config",
+            "size": 3815,
+            "hash": "5776169973a26a387b8b3e5c0f2301a7ab9a6dd7c7d3efa22a96abc47fbf8662"
+        },
+        {
+            "path": "nekagame_Data/Plugins/x86_64/libonigwrap.dll",
+            "size": 551336,
+            "hash": "6d539f2ad6e1b58d3c8836b9c3a1d50c97cbd7a6ca0c5de25d994a7c4b1ecf42"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx",
+            "size": 60575,
+            "hash": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/2.0/machine.config",
+            "size": 29066,
+            "hash": "e91782a27fa39fc6c1d6ee8b08529f5d35052310d0006034b878eb04b8f2af30"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/2.0/settings.map",
+            "size": 2622,
+            "hash": "49c6160f9d54af4270a3b4e997fc4a8301f79b9e2070118fa46ddbcbbc44f9a2"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/2.0/web.config",
+            "size": 11635,
+            "hash": "cf2b54339e069b9e42f7d6795eecbf562c50c1011f4ca8f65f578fe52d97ff92"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx",
+            "size": 60575,
+            "hash": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.0/machine.config",
+            "size": 33598,
+            "hash": "e60aec2c5115d65b3acb3c55ea21576dbd770f579166c017125571e46ae560ed"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.0/settings.map",
+            "size": 2622,
+            "hash": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.0/web.config",
+            "size": 18802,
+            "hash": "e38bb8cc68fe5b4edecdfd288d094b9e8ced7629039b2a347682aba0d8bd7492"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx",
+            "size": 60575,
+            "hash": "751861040b69ea63a3827507b7c8da9c7f549dc181c1c8af4b7ca78cc97d710a"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.5/machine.config",
+            "size": 34056,
+            "hash": "ee950004b576fb28dc85f4b0435ed04bf96612de2e8b53be84d07afe85a0de6c"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.5/settings.map",
+            "size": 2622,
+            "hash": "ce1db1ad8a9512073164e3eccdc193f7eda036e1a9733caec4635de21b2865c8"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.5/web.config",
+            "size": 18811,
+            "hash": "c4cbddd4fd9347b58cc5a72b36dc4ba1ad2bb699e65869d05cd3fb9865f0d824"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/mconfig/config.xml",
+            "size": 25817,
+            "hash": "0c56e34c69124510fa8c19e7b4c2ca6c1c4ff460ae19f798dd0ca035809e396d"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser",
+            "size": 1605,
+            "hash": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser",
+            "size": 1605,
+            "hash": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+        },
+        {
+            "path": "MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser",
+            "size": 1605,
+            "hash": "8a1082057ac5681dcd4e9c227ed7fb8eb42ac1618963b5de3b65739dd77e2741"
+        }
+    ]
+}
